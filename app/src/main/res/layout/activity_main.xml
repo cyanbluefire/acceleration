@@ -1,11 +1,64 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/currentAcceleration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="@string/cuttent_acceleration"
+        android:editable="false"
+        android:singleLine="true"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/maxAcceleration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="@string/max_acceleration"
+        android:editable="false"
+        android:singleLine="true"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/accelerationX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="@string/acceleration_x"
+        android:editable="false"
+        android:singleLine="true"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/accelerationY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="@string/acceleration_y"
+        android:editable="false"
+        android:singleLine="true"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/accelerationZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="@string/acceleration_z"
+        android:editable="false"
+        android:singleLine="true"
+        android:layout_margin="10dp"/>
 
-</RelativeLayout>
+
+</LinearLayout>

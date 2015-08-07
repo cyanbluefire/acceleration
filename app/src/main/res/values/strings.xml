@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">Accelerometer</string>
 
-    <string name="hello_world">Hello world!</string>
+    <string name="max_acceleration">Max Acceleration</string>
+    <string name="cuttent_acceleration">Cuttent Acceleration</string>
     <string name="action_settings">Settings</string>
+    <string name="acceleration_x">X:</string>
+    <string name="acceleration_y">Y:</string>
+    <string name="acceleration_z">Z:</string>
+
 </resources>
